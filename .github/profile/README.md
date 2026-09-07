@@ -204,14 +204,9 @@ commit、Discussions 与 [DroidVM wiki](https://github.com/Droid-VM/DroidVM/wiki
 
 <a id="readme-简体中文"></a>
 <p align="center">— · — · —</p>
-<p align="center">👇 以下是简体中文版组织介绍 👇</p>
 
 <h1 align="center">DroidVM</h1>
 <h3 align="center">在 Android 里跑真正的虚拟机</h3>
-
-> 这是一个 **GitHub 组织简介页（`.github/profile/README.md`）** 的草稿：
-> 上面的英文版是组织页在 GitHub 上的默认展示（与主仓库 README 保持一致），
-> 下面的中文版面向本地协作与转述。
 
 **DroidVM** 是运行在 Android 设备上的虚拟机管理器，直接利用手机的
 **硬件虚拟化**能力——高通 **Gunyah**、联发科 **GenieZone** 或 **Linux KVM**——
