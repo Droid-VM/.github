@@ -10,11 +10,11 @@
   <a href="https://github.com/Droid-VM/DroidVM"><img src="https://img.shields.io/github/stars/Droid-VM/DroidVM?style=social&label=Star" alt="GitHub Stars"></a>
   <a href="https://github.com/Droid-VM/DroidVM/releases"><img src="https://img.shields.io/github/v/release/Droid-VM/DroidVM?include_prereleases&label=release&logo=github" alt="Release"></a>
   <a href="https://droid-vm.github.io/"><img src="https://img.shields.io/badge/docs-DroidVM%20%E6%96%87%E6%A1%A3-4D9BE8" alt="Docs"></a>
-  <a href="https://github.com/Droid-VM/DroidVM/discussions"><img src="https://img.shields.io/badge/community-Discussions-blue" alt="Discussions"></a>
   <a href="https://github.com/Droid-VM/DroidVM/wiki"><img src="https://img.shields.io/badge/wiki-DroidVM%20Wiki-informational" alt="Wiki"></a>
 </p>
 
 <p align="center">
+    <a href="https://github.com/Droid-VM/DroidVM/discussions"><img src="https://img.shields.io/badge/Github-Discussions-blue?" alt="Discussions"></a>
   <a href="https://t.me/Droid_VM"><img src="https://img.shields.io/badge/Telegram-Join_Community-blackviolet?logo=telegram" alt="Telegram discussion group"></a>
   <a href="https://qun.qq.com/universal-share/share?ac=1&svctype=5&tempid=h5_group_info&busi_data=eyJncm91cENvZGUiOiIxMDk4MzM1NjAxIn0%3D"><img src="https://img.shields.io/badge/QQ-%E4%BA%A4%E6%B5%81%E7%BE%A4-blackviolet?logo=QQ" alt="QQ discussion group"></a>
 </p>
@@ -53,16 +53,16 @@ that manages everything.
 │      │     ├─ virtio devices · gfxstream / virglrenderer · …   │
 │      │     └─ EDK2 firmware (edk2-gunyah)  /  direct kernel    │
 │      ├─ host kernel modules  (Gunyah GuestAccept, hugepages…)  │
-│      └─ network: bridge · vswitch · pbridge                     │
-│                    │                                            │
-│   ┌────────────────┼──────────────────────────────────────────┐ │
-│   │   Gunyah / GenieZone / KVM  hardware hypervisor           │ │
-│   └────────────────┴──────────────────────────────────────────┘ │
-│                    │                                            │
-│   ┌────────────────┴──────────────────────────────────────────┐ │
+│      └─ network: bridge · vswitch · pbridge                    │
+│                    │                                           │
+│   ┌────────────────┼─────────────────────────────────────────┐ │
+│   │   Gunyah / GenieZone / KVM  hardware hypervisor          │ │
+│   └────────────────┴─────────────────────────────────────────┘ │
+│                    │                                           │
+│   ┌────────────────┴─────────────────────────────────────────┐ │
 │   │  Guest — Linux desktop, Windows on ARM, BSD …            │ │
 │   │    guest additions · virtio-gpu (mesa) · turnip          │ │
-│   └───────────────────────────────────────────────────────────┘ │
+│   └──────────────────────────────────────────────────────────┘ │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -172,7 +172,7 @@ that manages everything.
 最省心的方式是用 **droidvm-meta-repo** 的流水线（`1_`→`9_` 各阶段脚本把本组织所有组件串起来）。想单独构建，对每个组件：
 
 ```bash
-git clone -b droidvm https://github.com/Droid-VM/<repo>.git   # 各组件走 droidvm 稳定分支
+git clone -b droidvm https://github.com/Droid-VM/droidvm-meta-repo.git   # 各组件走 droidvm 稳定分支
 # 应用本体（唯一例外，稳定分支叫 master）：
 git clone -b master https://github.com/Droid-VM/DroidVM.git
 ```
