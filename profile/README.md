@@ -12,7 +12,11 @@
   <a href="https://droid-vm.github.io/"><img src="https://img.shields.io/badge/docs-DroidVM%20%E6%96%87%E6%A1%A3-4D9BE8" alt="Docs"></a>
   <a href="https://github.com/Droid-VM/DroidVM/discussions"><img src="https://img.shields.io/badge/community-Discussions-blue" alt="Discussions"></a>
   <a href="https://github.com/Droid-VM/DroidVM/wiki"><img src="https://img.shields.io/badge/wiki-DroidVM%20Wiki-informational" alt="Wiki"></a>
-  <a href="https://t.me/Droid_VM"><img src="https://img.shields.io/badge/Telegram-Join_Community-26A5E4?logo=telegram" alt="Telegram discussion group"></a>
+</p>
+
+<p align="center">
+  <a href="https://t.me/Droid_VM"><img src="https://img.shields.io/badge/Telegram-Join_Community-blackviolet?logo=telegram" alt="Telegram discussion group"></a>
+  <a href="https://qun.qq.com/universal-share/share?ac=1&svctype=5&tempid=h5_group_info&busi_data=eyJncm91cENvZGUiOiIxMDk4MzM1NjAxIn0%3D"><img src="https://img.shields.io/badge/QQ-%E4%BA%A4%E6%B5%81%E7%BE%A4-blackviolet?logo=QQ" alt="QQ discussion group"></a>
 </p>
 
 <p align="center">
